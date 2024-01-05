@@ -1,0 +1,23 @@
+
+footer {
+    background: var(--secondary-background-color);
+    display: flex;
+    gap: 1em;
+}
+
+.links,
+.social-media-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media-icons {
+    text-align: center;
+    gap: 0.25em;
+}
+.fa-brands{
+    cursor: pointer;
+}
+.fa-regular{
+    cursor: pointer;
+}

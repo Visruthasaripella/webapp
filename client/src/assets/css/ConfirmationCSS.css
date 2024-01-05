@@ -1,0 +1,38 @@
+.confirmationView {
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 20px;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   background-color: #fff;
+}
+
+.confirmationHeader h1 {
+   color: #333;
+   font-size: 24px;
+}
+
+.confirmationDetails {
+   margin-top: 20px;
+}
+
+.confirmationDetails ul {
+   list-style: none;
+   padding: 0;
+}
+
+.confirmationDetails li {
+   margin-bottom: 10px;
+}
+
+.confirmationDetails li strong {
+   display: inline-block;
+   width: 150px;
+   font-weight: bold;
+}
+
+.confirmationFooter {
+   margin-top: 20px;
+   color: #777;
+}

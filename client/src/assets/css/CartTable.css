@@ -1,0 +1,172 @@
+.cart-table {
+    grid-template-columns: max-content minmax(10em, 20em) repeat(3, max-content);
+    row-gap: 1em;
+    width: 80%;
+    margin: 0 auto;
+    overflow: scroll;
+    height:650px;
+    border-radius: 5px;
+}
+
+.cart2{
+    width: 100%;
+    text-align: center;
+
+}
+table th td tr{
+    border-style: hidden;
+}
+
+.table-heading {
+    background-color: #333;
+    color: white;
+    width:100%;
+}
+
+.table-heading > * {
+    background-color: #333;
+    padding: 0.5em;
+}
+
+.heading-book {
+
+    grid-column: 1 / 2;
+}
+
+.heading-price {
+    grid-column: 2 / 4;
+    text-align: right;
+}
+
+.heading-subtotal {
+    text-align: right;
+    grid-column: -2 / -1;
+}
+.heading-quantity{
+    grid-column: -2/-1;
+}
+.cart-book-image {
+    padding: 0 1em;
+    display: flex;
+    align-items:center;
+}
+
+.cart-book-image > * {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.cart2 img {
+    display: block;
+    width: 100px;
+    height: auto;
+}
+
+.rect {
+    background-color: #cccccc;
+}
+
+.narrow-rect {
+    width: 75px;
+    height: 100px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+.wide-rect {
+    width: 125px;
+    height: 100px;
+}
+
+.cart-book-price {
+    padding-left: 1em;
+    text-align: right;
+}
+
+.cart-book-quantity {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.cart-book-subtotal {
+    text-align: right;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* Row separators in the table */
+
+.line-sep {
+    display: block;
+    height: 2px;
+    background-color: #cccccc;
+    grid-column: 1 / -1;
+}
+
+/* Increment/decrement buttons */
+
+.icon-button {
+    border: none;
+    cursor: pointer;
+}
+
+.inc-button {
+    font-size: 1.125rem;
+    color: #3498db ;
+    margin-right: 0.25em;
+}
+
+.inc-button:hover {
+    color: #2980b9;
+}
+
+.dec-button {
+    font-size: 1.125rem;
+    color: #e74c3c;
+}
+
+.dec-button:hover {
+    color: #c0392b;
+}
+
+/* Chevron buttons */
+
+.dec-arrow-button,
+.inc-arrow-button {
+    font-size: 1rem;
+    color: green;
+}
+
+.dec-arrow-button:hover,
+.inc-arrow-button:hover {
+    color: green;
+}
+
+input[type="number"] {
+    width: 4em;
+}
+
+select {
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.row-line {
+    border-bottom: 1px solid black;}
+
+
+.container::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+.cart-item-book{
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 5px;
+}
+.tr {
+    border-bottom: 1px solid black;
+}

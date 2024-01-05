@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/VisrutaBookstoreReactTransact/static/css/main.7c6c7bc2.css",
+    "main.js": "/VisrutaBookstoreReactTransact/static/js/main.9d13dd0e.js",
+    "static/js/787.d5fa4d18.chunk.js": "/VisrutaBookstoreReactTransact/static/js/787.d5fa4d18.chunk.js",
+    "static/media/empty-cart.png": "/VisrutaBookstoreReactTransact/static/media/empty-cart.90ca5c75b4d70f5918ac.png",
+    "static/media/1012.jpg": "/VisrutaBookstoreReactTransact/static/media/1012.fa1eb06b1a27fbfdc1ba.jpg",
+    "static/media/1013.jpg": "/VisrutaBookstoreReactTransact/static/media/1013.a3cf89d438c1f0d1c5d3.jpg",
+    "static/media/websitelogo.jpg": "/VisrutaBookstoreReactTransact/static/media/websitelogo.5c0f2edb3cc3c9ced68f.jpg",
+    "static/media/1033.jpg": "/VisrutaBookstoreReactTransact/static/media/1033.05fa4f35d28537e40c4b.jpg",
+    "static/media/1028.jpg": "/VisrutaBookstoreReactTransact/static/media/1028.cd1263fdb6a2f06bd8bd.jpg",
+    "index.html": "/VisrutaBookstoreReactTransact/index.html",
+    "main.7c6c7bc2.css.map": "/VisrutaBookstoreReactTransact/static/css/main.7c6c7bc2.css.map",
+    "main.9d13dd0e.js.map": "/VisrutaBookstoreReactTransact/static/js/main.9d13dd0e.js.map",
+    "787.d5fa4d18.chunk.js.map": "/VisrutaBookstoreReactTransact/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c6c7bc2.css",
+    "static/js/main.9d13dd0e.js"
+  ]
+}

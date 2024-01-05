@@ -1,0 +1,38 @@
+
+.home-pages  {
+    display: flex;
+
+}
+
+.welcome-text {
+    width: 30em;
+    background-color: var(--neutral-color);
+    color: whitesmoke;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.flow-content > * + * {
+    margin-top: 1rem;
+}
+
+/*
+  Giving various sections of your page this utility class
+  will ensure a nice padding around the contents.
+*/
+.container {
+    padding: 2rem;
+}
+
+.button-cta{
+    background-color: gray;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+.button-cta:hover{
+    background-color: darkgray;
+    text-decoration: none;
+
+}

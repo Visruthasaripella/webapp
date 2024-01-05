@@ -1,0 +1,125 @@
+
+header {
+    background: var(--secondary-background-color);
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    gap: 1em;
+}
+
+.text-logo {
+    font-family: var(--title-font-family);
+}
+
+.search-bar {
+    padding: 0.5em;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+.search-icon{
+    position: absolute;
+    margin-left: 180px;
+}
+.search-bar-text{
+    width:250px;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+.read-now-button {
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    padding: 5px 10px;
+    background-color: darkslategray;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #3498db;
+    color: white;
+}
+.fa-xl{
+    cursor: pointer;
+}
+.cat-links{
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.cat-links-active{
+    color: white;
+    background-color: #4e4e4e;
+}
+.cat-link{
+    text-decoration: none;
+    border-radius: 15px;
+    border: 1px solid grey;
+
+}
+.cart-count{
+    position: absolute;
+    top:30px;
+    right:120px;
+    border:1px solid white;
+    border-radius: 50px;
+    width:25px;
+    height:25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.cart-icon:hover{
+    color:#808080;
+    cursor: pointer;
+}
+.cart-icon:hover .cart-cont  {
+    background-color: #808080;
+    color:black;
+}
+.fa-cart-shopping{
+    color: white;
+}
+.fa-cart-shopping:hover{
+    color: black;
+}
